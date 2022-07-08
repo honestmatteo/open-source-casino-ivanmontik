@@ -114,7 +114,7 @@ https://tailwindcss.com/docs/font-size<template>
                 leave-to="opacity-0 scale-95"
               >
                 <div
-                  class="w-full overflow-hidden w-full px-1 my-2 xxs:w-1/2 xs:w-1/3 xs:px-2 sm:w-1/3 sm:px-2 md:w-1/4 md:px-2 lg:my-3 lg:px-2 lg:w-1/6 xl:my-3 xl:px-2 xl:w-1/8"
+                  class="w-full overflow-hidden w-1x-1 my-2 xxs:w-1/2 xs:w-1/3 xs:px-2 sm:w-1/3 sm:px-2 md:w-1/4 md:px-2 lg:my-3 lg:px-2 lg:w-1/6 xl:my-3 xl:px-2 xl:w-1/8"
                 >
                   <game-thumb class="cursor-pointer"
                     :href="
@@ -122,14 +122,12 @@ https://tailwindcss.com/docs/font-size<template>
                         slug: game.game_slug
                       })
                     "
-                  >
+                  > 
                     <img
                       class="h-full w-full shadow-sm rounded-2xl scale-105 duration-[325ms] ease hover:scale-100"
                       :src="
-                        `https://dkimages.imgix.net/v2/image_sq_alt/${
-                          game.game_provider
-                        }/${
-                          game.game_slug
+                        `https://cdn2.softswiss.net/arlekincasino/i/s2/${
+                          game.full_prefix
                         }.png?auto=format,compress&sharp=10&q=90w=250&h=250`
                       "
                     />
@@ -173,10 +171,8 @@ https://tailwindcss.com/docs/font-size<template>
                     <img
                       class="h-full w-full shadow-sm rounded-2xl scale-105 duration-[325ms] ease hover:scale-100"
                       :src="
-                        `https://dkimages.imgix.net/v2/image_sq_alt/${
-                          game.game_provider
-                        }/${
-                          game.game_slug
+                        `https://cdn2.softswiss.net/arlekincasino/i/s2/${
+                          game.full_prefix
                         }.png?auto=format,compress&sharp=10&q=90w=250&h=250`
                       "
                     />
@@ -219,10 +215,8 @@ https://tailwindcss.com/docs/font-size<template>
                     <img
                       class="h-full w-full shadow-sm rounded-2xl scale-105 duration-[325ms] ease hover:scale-100"
                       :src="
-                        `https://dkimages.imgix.net/v2/image_sq_alt/${
-                          game.game_provider
-                        }/${
-                          game.game_slug
+                        `https://cdn2.softswiss.net/arlekincasino/i/s2/${
+                          game.full_prefix
                         }.png?auto=format,compress&sharp=10&q=90w=250&h=250`
                       "
                     />

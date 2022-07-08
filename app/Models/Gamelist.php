@@ -22,7 +22,7 @@ class Gamelist extends Model
      * @var string[]
      */
     protected $fillable = [
-        'id', 'game_slug', 'game_name', 'game_provider', 'rtp', 'game_desc', 'index_rating', 'disabled', 'type', 'demo', 'hidden'
+        'id', 'game_slug', 'game_name', 'full_prefix', 'game_provider', 'rtp', 'game_desc', 'index_rating', 'full_prefix', 'disabled', 'type', 'demo', 'hidden'
     ];
 
     public static function cachedList()

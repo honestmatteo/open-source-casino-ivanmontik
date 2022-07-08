@@ -112,7 +112,7 @@ class CurrenciesController extends Controller
             }
 
         }
-        return $balances;
+        //return $balances;
     }
 
     public function updateBalances(Request $request)

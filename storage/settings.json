@@ -1,7 +1,7 @@
 {
   "main_api_key": "1ACBB472AE4F3A662DB9A67782DC951F",
   "main_api_secret": "D2E",
-  "url": "https://dev.ryan.gold",
+  "url": "https://8000-honestmatte-opensourcec-bpkin1bgku7.ws-eu51.gitpod.io",
   "cryptapi_secret": "24242",
   "api_server": "api.dk.games",
   "cdn": "https://dkimages.imgix.net/v2/image_sq_alt"

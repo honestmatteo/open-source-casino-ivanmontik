@@ -83,6 +83,7 @@ class ThirdpartyGamesController extends Controller
                 'success' => true,
                 'game_header' => $game_header,
                 'game_slug' => $slug,
+                'full_prefix' => $selectGame->full_prefix,
                 'game_provider' => $game_provider,
                 'rtp' => $rtp,
                 'iframe' => true,

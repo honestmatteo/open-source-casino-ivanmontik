@@ -37,6 +37,6 @@
         "vue-loader": "^16.1.2"
     },
     "dependencies": {
-        "web3": "^1.7.0"
+        "web3": "^1.7.4"
     }
 }
